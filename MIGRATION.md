@@ -1712,7 +1712,6 @@ These sections explain the rationale, and the required changes you might have to
 
 ### Framework-specific Vite plugins have to be explicitly added
 
-
 In Storybook 7, we would automatically add frameworks-specific Vite plugins, e.g. `@vitejs/plugin-react` if not installed.
 In Storybook 8 those plugins have to be added explicitly in the user's `vite.config.ts`:
 
