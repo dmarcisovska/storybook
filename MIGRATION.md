@@ -1709,7 +1709,6 @@ These sections explain the rationale, and the required changes you might have to
 - import { userEvent } from '@storybook/testing-library';
 + import { userEvent } from '@storybook/test';
 ```
-x
 
 ### Framework-specific Vite plugins have to be explicitly added
 
