@@ -1709,8 +1709,7 @@ These sections explain the rationale, and the required changes you might have to
 - import { userEvent } from '@storybook/testing-library';
 + import { userEvent } from '@storybook/test';
 ```
-
-For more information on the change, see the [announcement post](https://storybook.js.org/blog/storybook-test/).
+x
 
 ### Framework-specific Vite plugins have to be explicitly added
 
